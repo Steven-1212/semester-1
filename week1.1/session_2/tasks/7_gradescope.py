@@ -1,13 +1,14 @@
 # To test that you can successfully download a file and upload it to gradescope
 
 # You are going to write a very simple program:
-
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 # Ask a user to enter two numbers (one per input)
 
 # multiply those numbers together
-
+x = num1 * num2
 # print out the result
-
+print(x)
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
 # 'That is not a number' and exits.
